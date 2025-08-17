@@ -19,3 +19,4 @@ Ports
 3000 (API), 3001 (WebSocket)
 
 4001 TCP/UDP (IPFS swarm), 8080 (IPFS gateway)
+# secure-chat-ipfs
