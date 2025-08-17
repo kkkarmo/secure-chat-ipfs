@@ -1,0 +1,33 @@
+{
+  "name": "secure-chat-server",
+  "version": "2.0.0",
+  "description": "Enhanced secure chat server with IPFS fallback transport",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "docker:full": "docker-compose up -d"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.0",
+    "redis": "^4.6.7",
+    "mongoose": "^7.4.2",
+    "express-rate-limit": "^6.8.1",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "ws": "^8.13.0",
+    "axios": "^1.5.0",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

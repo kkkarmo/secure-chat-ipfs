@@ -1,0 +1,14 @@
+node_modules/
+logs/
+.log
+.env
+.env.
+docker-data/
+ipfs-data/
+mongodb-data/
+redis-data/
+ssl/
+.DS_Store
+.vscode/
+*.tar
+*.tar.gz
